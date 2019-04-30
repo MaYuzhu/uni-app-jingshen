@@ -1,0 +1,50 @@
+{
+  "description": "项目配置文件。",
+  "packOptions": {
+    "ignore": []
+  },
+  "setting": {
+    "urlCheck": false
+  },
+  "compileType": "miniprogram",
+  "libVersion": "",
+  "appid": "wx4afd49d0c4a9dd57",
+  "projectname": "JingNorthRailway",
+  "condition": {
+    "search": {
+      "current": -1,
+      "list": []
+    },
+    "conversation": {
+      "current": -1,
+      "list": []
+    },
+    "game": {
+      "current": -1,
+      "list": []
+    },
+    "miniprogram": {
+      "current": 2,
+      "list": [
+        {
+          "name": "主页",
+          "query": "porject=1",
+          "id": 0,
+          "pathName": "pages/index/index"
+        },
+        {
+          "name": "登录",
+          "query": "dev=2",
+          "id": 1,
+          "pathName": "pages/login/login"
+        },
+        {
+          "name": "登录前",
+          "query": "",
+          "id": 2,
+          "pathName": "pages/loginBefore/loginBefore"
+        }
+      ]
+    }
+  }
+}
